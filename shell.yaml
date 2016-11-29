@@ -8,7 +8,7 @@ spec:
   containers:
     -
       name: openshift-shell
-      image: 'quay.io/alpha_weepee_io/openshift-shell:release'
+      image: 'quay.io/alpha_weepee_io/openshift-shell:latest'
       ports:
       resources:
         limits:

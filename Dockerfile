@@ -3,7 +3,7 @@ MAINTAINER Joeri van Dooren <ure@mororless.be>
 
 ADD scripts/run.sh /scripts/run.sh
 
-RUN apk --no-cache add --update tar rsync openssl ca-certificates curl && apk upgrade && chmod +x /scripts/run.sh
+RUN apk --no-cache add --update tar rsync openssl ca-certificates curl wget screen && apk upgrade && chmod +x /scripts/run.sh
 
 WORKDIR /scripts
 
